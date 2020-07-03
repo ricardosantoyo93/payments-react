@@ -1,0 +1,43 @@
+.item-input:disabled, .item-done:disabled, .item-delete:disabled, .item-edit:disabled {
+    display: none;
+}
+
+.item {
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #393B45;
+}
+
+.item > .item-label.disabled {
+    display: none;
+}
+
+.item > input {
+    height: 20px;;
+}
+
+.item > button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 5px;
+    border-radius: 2px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin: 2px;
+    position: relative;
+    float: right;
+}
+
+.item > button:hover {
+    background: #00a0bc;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
